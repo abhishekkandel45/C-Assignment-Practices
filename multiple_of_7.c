@@ -1,19 +1,24 @@
+/*
+ Write  a C program, whic will print two digit number whose sum of both digits is multiple of  seven ( Eg. 16, 25, 34)
+*/
 #include <stdio.h>
-void main()
+int main()
 {
-    int i, sum, mul,temp,dig;
-    for	(i=10;i<=70,i++)
+    int i, sum, dig; mul;
+    for (i = 10; i < 99; i++)
     {
-        temp= i
-            while (temp==0)
-            {
-              dig= temp%10;
-              sum= sum+temp;
-              temp=temp/10;
-            }
-        if (sum%7==0)
+        while (i<=0)
         {
-            printf ("%d",i);
-        }      
+          dig=i%10;
+          sum= sum+dig;
+          i=i/10;
+        }
+        mul=sum%7;
+        if (mul==0)
+        {
+          printf ("%d",sum);
+        }
+        
     }
+    return 0;
 }
