@@ -11,4 +11,4 @@ int n, sum=0, i;
  }
  printf ("\n The sum of natural number from 1 to %d is %d",n,sum);
  return 0;
-}
+}d
