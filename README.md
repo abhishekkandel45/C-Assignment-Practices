@@ -1,3 +1,3 @@
 # C-Assignment-Practices
 C Assignment Practice 
-This are the evern asssignment and lab work we did in lab
+This are the every  asssignment and lab work we did in lab
