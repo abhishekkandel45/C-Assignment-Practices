@@ -1,7 +1,6 @@
 /* write a progarm to to find the maxima and minina usinf the Recursion */
 
 #include <stdio.h>
-#include <conio.h>
 #define MAX_SIZE 100
 
 // Function declarations
@@ -14,7 +13,6 @@ int main()
 {
     int array[MAX_SIZE], Num, max, min;
     int i;
-    clrscr();
     // Inputting size and elements of array
     printf("Enter size of the array: ");
     scanf("%d", &Num);
