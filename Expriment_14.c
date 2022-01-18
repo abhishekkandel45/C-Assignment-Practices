@@ -1,4 +1,4 @@
-/* 
+/*
 Write a program for Factorial Using Recursion.
 */
 #include <stdio.h>
@@ -9,7 +9,7 @@ int main()
     printf ("Enter the number to find the Factorial: ");
     scanf ("%d",&num);
     factorial= fact(num);
-    printf ("\n The Factorial of the number is: %d ", factorial);
+    printf ("\nThe Factorial of the number is: %d ", factorial);
     return 0;
 }
 
@@ -24,5 +24,4 @@ int  fact (int x)
   {
       return x*fact(x-1);
   }
-  
 }
