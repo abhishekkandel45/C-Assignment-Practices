@@ -16,9 +16,9 @@ int main()
     scanf("%d", &n);
     
     //Taking the value using the loop
-    for (i=1;i<=n;i++)
+    for (i=0;i<n;i++)
     {
-        printf("\nEnter person %d Name:  ",i);
+        printf("\nEnter person %d Name:  ",i+1);
         printf("\nEnter the name: ");
         fflush (stdin);
         gets(employee[i].name);
