@@ -1,5 +1,4 @@
-// C program to illustrate
-// call by value
+// C program to illustrate call by value
 #include <stdio.h>
 // Function Prototype
 void swapx(int x, int y);
@@ -17,7 +16,7 @@ return 0;
 void swapx(int x, int y)
 {
     int t;
-t = x;
+    t = x;
     x = y;
     y = t;
 printf("x=%d y=%d\n", x, y);
