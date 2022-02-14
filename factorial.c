@@ -1,6 +1,6 @@
 #include <stdio.h>
 int fact(int);
-void main()
+int main()
 {
  int no,factorial;
   	printf("Enter a number to calculate it's factorial\n");
